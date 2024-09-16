@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Elemento raiz -->
+  <xs:element name="Pessoa">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- Definindo os elementos dentro de "Pessoa" -->
+        <xs:element name="Nome" type="xs:string" />
+        <xs:element name="Idade" type="xs:int" />
+        <xs:element name="Endereco">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- Definindo os elementos dentro de "Endereco" -->
+              <xs:element name="Rua" type="xs:string" />
+              <xs:element name="Cidade" type="xs:string" />
+              <xs:element name="CEP" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

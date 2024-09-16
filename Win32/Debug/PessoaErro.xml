@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pessoa>
+  <Nome>João Silva</Nome>
+  <Idade>30</Idade>
+  <Endereco>
+    <Ruaaa>Rua das Flores, 123</Ruaaa>
+    <Cidade>São Paulo</Cidade>
+    <CEP>01234-567</CEP>
+  </Endereco>
+</Pessoa>
