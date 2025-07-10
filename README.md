@@ -12,4 +12,4 @@
 # Blog
 - Content available at:
 - Conteúdo disponível em:
-  https://codedelphi.com/validacao-de-xml-em-delphi/
+  https://www.codedelphi.com/2024/09/validacao-de-xml-em-delphi.html
